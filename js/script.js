@@ -111,11 +111,11 @@ document.querySelector(".tombol").addEventListener('click', function () {
                               showCancelButton: false,
                               inputValidator: (value) => {
                                 if (!value) {
-                                  return 'Isi dulu dunk Yekk'
+                                  return 'ISI DULU DUNK YEKK'
                                 }
                               }
                             }).then((result) => {
-                              Swal.fire('Okey Yekk', 'Nanti aku kabulin kemauan kamu yaah', 'success').then((result) => {
+                              Swal.fire('Okey Yekk', 'Nanti Aku kabulin kemauan Kamu yaah', 'success').then((result) => {
                                 Swal.fire("See ya! JEYEKK ^^").then((result) => {
                                   selesai()
                                 });
