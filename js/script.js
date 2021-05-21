@@ -116,14 +116,14 @@ document.querySelector(".tombol").addEventListener('click', function () {
                               }
                             }).then((result) => {
                               Swal.fire('Okey by', 'Nanti aku kabulin kemauan kamu yaa', 'success').then((result) => {
-                                Swal.fire("See ya! Aku kangen ^^").then((result) => {
+                                Swal.fire("See ya! PUTRI JEYEKK ^^").then((result) => {
                                   selesai()
                                 });
                               })
                             })
                           } else if (result.isDenied) {
-                            Swal.fire('Oh okedeh kalo ga ada').then((result) => {
-                              Swal.fire("See ya! Aku kangen ^^").then((result) => {
+                            Swal.fire('Oh oke deh kalo ga ada').then((result) => {
+                              Swal.fire("See ya! PUTRI JEYEKK ^^").then((result) => {
                                 selesai()
                               });
                             })
