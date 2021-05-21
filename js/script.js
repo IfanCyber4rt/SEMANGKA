@@ -51,7 +51,7 @@ function selesai() {
   const teks = document.getElementById('teks');
   const btn = document.querySelector('.tombol');
   teks.innerHTML = `Semangat ${doi} <i
-  class="fas fa-heart text-danger animate__animated animate__heartBeat animate__repeat-3"></i>`;
+  class="fas fa-heart text-danger animate__animated animate__heartBeat animate__repeat-8"></i>`;
   btn.classList.add('d-none');
   teks.classList.remove('d-none');  
 }
