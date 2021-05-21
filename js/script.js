@@ -69,7 +69,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
       Swal.fire('Kalau belum jangan lupa MAKAN yaa').then((result) => {
         Swal.fire({
           title: ' ',
-          html: `Aku tau ko kamu lagi SIBUK banget`,
+          html: `Aku tau ko Kamu lagi SIBUK Banget`,
           timer: 2000,
           timerProgressBar: true,
           showConfirmButton: false,
@@ -77,7 +77,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
           if (result.dismiss === Swal.DismissReason.timer) {
             Swal.fire({
               title: ' ',
-              html: `Lagi PUSING banget, CAPE banget`,
+              html: `Lagi PUSING Banget, CAPE Banget`,
               timer: 2000,
               timerProgressBar: true,
               showConfirmButton: false,
@@ -116,14 +116,14 @@ document.querySelector(".tombol").addEventListener('click', function () {
                               }
                             }).then((result) => {
                               Swal.fire('Okey Yekk', 'Nanti aku kabulin kemauan kamu yaah', 'success').then((result) => {
-                                Swal.fire("See ya! PUTRI JEYEKK ^^").then((result) => {
+                                Swal.fire("See ya! JEYEKK ^^").then((result) => {
                                   selesai()
                                 });
                               })
                             })
                           } else if (result.isDenied) {
                             Swal.fire('Oh oke deh kalo ga ada').then((result) => {
-                              Swal.fire("See ya! PUTRI JEYEKK ^^").then((result) => {
+                              Swal.fire("See ya! JEYEKK ^^").then((result) => {
                                 selesai()
                               });
                             })
